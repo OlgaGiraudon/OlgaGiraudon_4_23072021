@@ -731,13 +731,17 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-
 h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
+#text-h3 {
+    font-size: 22px;
+    line-height: 1.4em;
+    font-weight: 300;
+}
 
-h3 {
+h3,.mg-md {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
