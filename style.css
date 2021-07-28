@@ -160,11 +160,17 @@ a:hover {
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
+/*Button Page Contact*/
 #nav-toggle
 {
     background: rgb(243, 116, 77);
-    height: 25px;
-    border-radius: 10px;
+    height: 30px;
+    border-radius: 5px;
+    width: 100px;
+}
+.text-button-contact
+{
+    color: #000000;
 }
 
 .d-bloc .btn-wire,
@@ -276,7 +282,6 @@ a:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
-
 .voffset {
     margin-top: 30px;
 }
@@ -288,6 +293,7 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -295,7 +301,12 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
 }
-
+.iconmedia-contact
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -867,6 +878,16 @@ h4 {
     color: rgba(0, 0, 0, 1);
     font-size: 14px;
 }
+.icon-contact
+{
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 30px !important;
+    display: block;
+    
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -890,13 +911,15 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and /*(min-device-width: 768px) and (max-device-width: 1024px)*/
+(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and /*(min-device-width: 1024px) and (max-device-width: 1366px)*/
+(min-width: 1024px) and (max-width: 1366px)and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
