@@ -160,18 +160,6 @@ a:hover {
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
-/*Button Page Contact*/
-#nav-toggle
-{
-    background: rgb(243, 116, 77);
-    height: 30px;
-    border-radius: 5px;
-    width: 100px;
-}
-.text-button-contact
-{
-    color: #000000;
-}
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
