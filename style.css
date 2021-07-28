@@ -156,6 +156,12 @@ a:hover {
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
+#nav-toggle
+{
+    background: rgb(243, 116, 77);
+    height: 25px;
+    border-radius: 10px;
+}
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
@@ -343,9 +349,9 @@ a:hover {
     border: 0px;
 }
 
-.navbar-toggle:hover {
+/*.navbar-toggle:hover {
     background: transparent!important;
-}
+}*/
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
@@ -361,6 +367,10 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+#name, #email, .form-control
+{
+    margin-bottom: 10px;
 }
 
 @media (min-width: 768px) {
@@ -774,9 +784,14 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
+#p_invitation
+{
+    font-size: 15px;
+    font-weight: 300;
+}
 
 .tc-white {
-    color: #F3976C!important;
+    color: #080808!important;
 }
 
 .btn-atomic-tangerine {
