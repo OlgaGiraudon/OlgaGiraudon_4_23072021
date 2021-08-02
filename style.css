@@ -16,7 +16,12 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+/*Modification block 0 Header*/
+#banniere-header
+{
+    height: 40px;
+    width: 214px;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
