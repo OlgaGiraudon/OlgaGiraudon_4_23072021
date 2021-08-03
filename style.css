@@ -802,6 +802,7 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F67d44;
+   
 }
 #p_invitation
 {
@@ -907,14 +908,19 @@ h4 {
     margin-top: 10px;
     font-weight: 500;
 }
+.col-sm-4
+{
+    
+    margin-top: 10px;
+}
 .col-sm-4 ul
 {
     list-style: none;
 }
+
 .col-sm-4 li a
 {
     color: #000000;
-    line-height: px;
     font-size: 16px;
 }
 .icon-footer
@@ -1138,7 +1144,10 @@ h4 {
     {
         max-width: 100%;
     }
-    
+    .col-sm-4 li a
+    {
+        line-height: 48px;
+    }
 }
 @media (max-width: 400px) {
     .bloc {
