@@ -903,7 +903,7 @@ h4 {
 .footer-p
 {
     font-size: 18px;
-    color: white;
+    color: rgba(255, 255, 255, 0.678);
     margin-top: 10px;
     font-weight: 500;
 }
@@ -914,7 +914,8 @@ h4 {
 .col-sm-4 li a
 {
     color: #000000;
-    line-height: 22px;
+    line-height: 25px;
+    font-size: 16px;
 }
 .icon-footer
 {
