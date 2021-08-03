@@ -893,7 +893,13 @@ h4 {
     font-weight: 300;
     text-transform: none;
 }
-
+#block5-h2
+{
+    text-transform: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: #f86019;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
