@@ -588,12 +588,12 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog {
     width: 90%;
     max-width: 900px;
-    margin: 0 auto 0;
+    margin: 0 auto;
 }
 
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
-    margin: 0 auto;
+    margin: 0 auto 10px;
 }
 
 .lightbox-caption {
@@ -887,6 +887,13 @@ h4 {
 {
     font-size: 15px;
 }
+#block4-main-title
+{
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: none;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1089,6 +1096,11 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .portfolio-thumb
+    {
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
