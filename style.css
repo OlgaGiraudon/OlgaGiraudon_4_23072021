@@ -801,7 +801,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f6783e;
+    background-color: #a54a20;
 }
 #p_invitation
 {
@@ -915,6 +915,11 @@ h4 {
 {
     color: #000000;
     line-height: 22px;
+}
+.icon-footer
+{
+    color:white !important;
+    opacity: 0.9;
 }
 @media (max-width: 1024px) {
     .bloc {
