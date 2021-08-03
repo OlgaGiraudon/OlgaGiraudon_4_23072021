@@ -859,10 +859,7 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
-/*#photo_magasine
-{
-    max-width: 100%;
-}*/
+
 #texte-adresse
 {
     color: rgba(0, 0, 0, 1);
@@ -876,7 +873,16 @@ h4 {
     font-size: 30px !important;
     display: block;
 }
-
+#texte-avis-client
+{
+    font-style: italic;
+    font-size: 21px;
+    line-height: 1.3em;
+}
+#author-avis-client
+{
+    font-size: 15px;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
