@@ -292,7 +292,7 @@ a:hover {
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 #bloc-1-hero h1 {
     font-size: 32px;
@@ -379,7 +379,7 @@ a:hover {
 }
 #footer_contact
 {
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 500;
 }
 @media (min-width: 768px) {
@@ -729,6 +729,10 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+.social-footer
+{
+    width: 350px;
+}
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -802,12 +806,12 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F67d44;
-   
 }
 #p_invitation
 {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
+    color: #000000;
 }
 
 .tc-white {
@@ -927,6 +931,11 @@ h4 {
 {
     color:white !important;
     opacity: 0.9;
+}
+.h1-contact
+{
+    font-size: 36px;
+    color: #000000;
 }
 @media (max-width: 1024px) {
     .bloc {
@@ -1163,7 +1172,14 @@ h4 {
     {
         line-height: 40px;
     }
-
+    .social-footer
+    {
+        width: 320px;
+    }
+    .iconmedia-contact
+    {
+        margin-left: 10px;
+    }
 }
 @media (max-width: 767px) {
     .bloc-mob-center-text {
