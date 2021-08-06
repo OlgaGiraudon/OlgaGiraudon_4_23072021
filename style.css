@@ -383,6 +383,7 @@ a:hover {
 {
     font-size: 17px;
     font-weight: 500;
+    color: black;
 }
 .text-block-services
 {
@@ -831,8 +832,18 @@ h4 {
     background: #F67d44;
     color: #FFFFFF!important;
 }
+.btn-footer-contacts
+{
+    background: #F67d44;
+    color: black;
+    margin-top: 22px;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
+}
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover, .btn-footer-contacts:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
