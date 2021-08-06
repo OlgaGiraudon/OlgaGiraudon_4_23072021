@@ -384,6 +384,10 @@ a:hover {
     font-size: 17px;
     font-weight: 500;
 }
+.text-block-services
+{
+    font-size: 15px;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -744,14 +748,15 @@ h2 {
 #text-h3 {
     font-size: 22px;
     line-height: 1.4em;
-    font-weight: 300;
+    text-transform: none;
+    color: #000000;
 }
 
 h3,.mg-md {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 }
 
 .med-width-whitespace {
@@ -896,6 +901,7 @@ h4 {
 #p-what-i-do
 {
     font-size: 15px;
+    color: #000000;
 }
 #block4-main-title
 {
